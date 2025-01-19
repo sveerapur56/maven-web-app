@@ -4,23 +4,53 @@
 <style>
   body {
     background-color: lightgreen; /* Sets the background color */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  h2, h3 {
+    color: darkblue;
+    text-align: center;
+  }
+  ul {
+    list-style-type: square;
+    margin: 20px auto;
+    padding: 0;
+    width: 200px;
+    text-align: left;
+  }
+  ul li {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  .contact-info {
+    margin-top: 30px;
+    text-align: center;
   }
 </style>
 </head>
 <body>
-<h1><font color='Black'> Welcome to the Cloud world  </font></h1>
-<h1><font color='Black'> Gurukul technologies  </font></h1>
+<h1>Welcome to the Cloud World</h1>
+<h1>Gurukul Technologies</h1>
 
-<h1><font color='Black'> Cources offered </font></h1>
-<h1><font color='Black'> AWS </font></h1>
-<h1><font color='Black'> AWS Devops </font></h1>
-<h1><font color='Black'> Azure </font></h1>
+<h2>Courses Offered:</h2>
+<ul>
+  <li>AWS</li>
+  <li>AWS DevOps</li>
+  <li>Azure</li>
+</ul>
 
-<h2> Contact : +91 9731793847 </h2>
-<h2> Contact : +91 8892616831 </h2>
-<h3> Location : Bangalore </h3>
+<div class="contact-info">
+  <h2>Contact: +91 9731793847</h2>
+  <h2>Contact: +91 8892616831</h2>
+  <h3>Location: Bangalore</h3>
+</div>
 
-<h1> Learn from us, get a job easily if you practice </h1>
-
+<h2 style="margin-top: 40px; text-align: center;">
+  Learn from us, get a job easily if you practice!
+</h2>
 </body>
 </html>
