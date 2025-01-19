@@ -30,11 +30,25 @@
     margin-top: 30px;
     text-align: center;
   }
+  .image-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+  }
 </style>
 </head>
 <body>
 <h1>Welcome to the Cloud World</h1>
 <h1>Gurukul Technologies</h1>
+
+<div class="image-container">
+  <img src="gurukul-education.jpg" alt="Gurukul Technologies" />
+</div>
 
 <h2>Courses Offered:</h2>
 <ul>
