@@ -11,6 +11,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      animation: fadeIn 1s ease-in;
     }
 
     h1 {
@@ -18,12 +19,14 @@
       font-size: 2.5em;
       margin: 20px 0;
       color: #ffe066; /* Yellow color for headings */
+      animation: slideIn 1.5s ease-out;
     }
 
     h2, h3 {
       text-align: center;
       color: #ffe066;
       margin: 10px 0;
+      animation: fadeInUp 2s ease-out;
     }
 
     ul {
@@ -35,12 +38,15 @@
       background: rgba(0, 0, 0, 0.5);
       padding: 20px;
       border-radius: 10px;
+      animation: fadeInUp 2s ease-out;
     }
 
     ul li {
       font-size: 1.2em;
       margin: 10px 0;
       color: #fff;
+      opacity: 0;
+      animation: fadeInItem 1s ease-in forwards;
     }
 
     .contact-info {
@@ -52,6 +58,7 @@
       max-width: 400px;
       margin-left: auto;
       margin-right: auto;
+      animation: fadeInUp 2s ease-out;
     }
 
     .image-container {
@@ -65,6 +72,7 @@
       border: 5px solid #ffe066;
       border-radius: 10px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      animation: fadeInUp 2s ease-out;
     }
 
     .footer {
@@ -73,6 +81,28 @@
       font-size: 1.2em;
       font-weight: bold;
       color: #ffe066;
+      animation: slideIn 2s ease-out;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      0% { opacity: 0; transform: translateX(-50px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes fadeInItem {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
     }
 
     /* Mobile responsiveness */
@@ -97,7 +127,6 @@
   <ul>
     <li>AWS Azure GCP</li>
     <li>AWS DevOps Azure Devops</li>
-   
   </ul>
 
   <div class="contact-info">
@@ -108,7 +137,7 @@
 
   <div class="footer">
     Learn Daily ....practice! practice! practice! ...until you get a job 
-     If you do the work you get rewarded. There are no shortcuts in life.
+    If you do the work you get rewarded. There are no shortcuts in life.
   </div>
 </body>
 </html>
