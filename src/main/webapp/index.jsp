@@ -3,7 +3,7 @@
 <head>
 <style>
   body {
-    background: url('https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg') no-repeat center center fixed;
+    background: ('gurukul-education.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
     margin: 20px;
