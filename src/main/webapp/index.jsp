@@ -66,6 +66,6 @@
 <h2 style="margin-top: 40px; text-align: center;">
   Learn from us, get a job easily if you practice!
 </h2>
-background="https://previews.123rf.com/images/kotenko/kotenko1403/kotenko140300008/26854631-snowy-winter-in-a-mountain-forest-sunny-cold-day-with-snow-covered-trees-carpathian-mountains-ukrain.jpg">  
+<Body background="https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg">   
 </body>
 </html>
