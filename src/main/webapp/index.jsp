@@ -2,12 +2,7 @@
 <html>
 <head>
 <style>
-  body {
-    background: ('gurukul-education.jpg') no-repeat center center fixed;
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
+
   h1 {
     color: black;
     text-align: center;
