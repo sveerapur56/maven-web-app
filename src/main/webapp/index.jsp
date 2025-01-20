@@ -95,9 +95,9 @@
 
   <h2>Courses Offered:</h2>
   <ul>
-    <li>AWS</li>
-    <li>AWS DevOps</li>
-    <li>Azure</li>
+    <li>AWS Azure GCP</li>
+    <li>AWS DevOps Azure Devops</li>
+   
   </ul>
 
   <div class="contact-info">
