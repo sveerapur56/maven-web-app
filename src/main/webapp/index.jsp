@@ -1,8 +1,13 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <style>
-
+  body {
+    background-color: lightgreen; /* Sets the background color */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
   h1 {
     color: black;
     text-align: center;
@@ -36,12 +41,6 @@
     border: 2px solid darkblue;
     border-radius: 10px;
   }
-  .footer {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-  }
 </style>
 </head>
 <body>
@@ -65,8 +64,8 @@
   <h3>Location: Bangalore</h3>
 </div>
 
-<div class="footer">
+<h2 style="margin-top: 40px; text-align: center;">
   Learn from us, get a job easily if you practice!
-</div>
+</h2>
 </body>
 </html>
