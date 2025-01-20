@@ -107,7 +107,8 @@
   </div>
 
   <div class="footer">
-    Learn Daily ....practice! practice! practice! ...untils you get a job 
+    Learn Daily ....practice! practice! practice! ...until you get a job 
+     If you do the work you get rewarded. There are no shortcuts in life.
   </div>
 </body>
 </html>
