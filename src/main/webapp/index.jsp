@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -127,6 +129,7 @@
   <ul>
     <li>AWS Azure GCP</li>
     <li>AWS DevOps Azure Devops</li>
+    <li> New Course Automation using python AI</li>
   </ul>
 
   <div class="contact-info">
@@ -141,3 +144,4 @@
   </div>
 </body>
 </html>
+
