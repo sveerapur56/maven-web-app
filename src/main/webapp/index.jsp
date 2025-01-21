@@ -129,7 +129,8 @@
   <ul>
     <li>AWS Azure GCP</li>
     <li>AWS DevOps Azure Devops</li>
-    <li> New Course Automation using python AI</li>
+    <li> Automation  Ansible for congiartion management </li>
+    <li> Automation  Terraform for Infrastructure </li>
   </ul>
 
   <div class="contact-info">
