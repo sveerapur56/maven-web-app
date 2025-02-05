@@ -134,7 +134,7 @@
   </ul>
 
   <div class="contact-info">
-    <h2>Contact: +91 9833947245</h2>
+    <h2>Contact: +91 9833947500</h2>
     <h2>Contact: +91 8892616831</h2>
     <h3>Location: Bangalore</h3>
   </div>
