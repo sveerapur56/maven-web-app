@@ -140,7 +140,7 @@
   </div>
 
   <div class="footer">
-    Learn Daily ...
+    Learn Daily enjoy ...
   </div>
 </body>
 </html>
