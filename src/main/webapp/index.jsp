@@ -1,147 +1,207 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gurukul Technologies</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌥️ Gurukul Technologies</title>
+  <link rel="icon" href="https://emojiapi.dev/api/v1/cloud/64.png" type="image/png">
   <style>
     body {
-      background-color: #282c34; /* Set a background color */
-      color: #fff; /* Text color for better visibility */
-      font-family: Arial, sans-serif;
+      background: linear-gradient(-45deg, #1a2a6c, #b21f1f, #fdbb2d, #3a1c71);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #f8f8f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      animation: fadeIn 1s ease-in;
     }
 
     h1 {
       text-align: center;
-      font-size: 2.5em;
-      margin: 20px 0;
-      color: #ffe066; /* Yellow color for headings */
-      animation: slideIn 1.5s ease-out;
+      font-size: 2.8em;
+      margin: 20px 0 10px;
+      color: #ffe066;
+      animation: slideIn 1.2s ease-out;
+    }
+
+    .logo-container {
+      text-align: center;
+      animation: fadeInUp 1.4s ease-out;
+    }
+
+    .logo-container img {
+      max-width: 220px;
+      border-radius: 12px;
+      margin: 10px auto;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
 
     h2, h3 {
       text-align: center;
-      color: #ffe066;
+      color: #ffeb8a;
       margin: 10px 0;
-      animation: fadeInUp 2s ease-out;
+      animation: fadeInUp 1.4s ease-out;
     }
 
     ul {
       list-style: none;
       padding: 0;
       margin: 20px auto;
-      max-width: 300px;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.5);
+      max-width: 340px;
+      background: rgba(255, 255, 255, 0.08);
       padding: 20px;
-      border-radius: 10px;
-      animation: fadeInUp 2s ease-out;
+      border-radius: 12px;
+      animation: fadeInUp 1.5s ease-out;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
 
     ul li {
       font-size: 1.2em;
-      margin: 10px 0;
-      color: #fff;
-      opacity: 0;
-      animation: fadeInItem 1s ease-in forwards;
+      margin: 12px 0;
+      color: #ffffff;
+      animation: fadeInItem 1.5s ease forwards;
+    }
+
+    .radio-form {
+      text-align: left;
+      margin: 20px auto;
+      max-width: 340px;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 20px;
+      border-radius: 12px;
+      animation: fadeInUp 1.6s ease-out;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .radio-form label {
+      display: block;
+      margin: 12px 0;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+
+    .radio-form input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    .radio-form button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #ffe066;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      color: #333;
+      transition: background-color 0.3s ease;
+    }
+
+    .radio-form button:hover {
+      background-color: #ffd633;
     }
 
     .contact-info {
       text-align: center;
       margin-top: 30px;
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(255, 255, 255, 0.08);
       padding: 20px;
-      border-radius: 10px;
+      border-radius: 12px;
       max-width: 400px;
       margin-left: auto;
       margin-right: auto;
-      animation: fadeInUp 2s ease-out;
-    }
-
-    .image-container {
-      text-align: center;
-      margin: 20px 0;
-    }
-
-    .image-container img {
-      max-width: 80%;
-      height: auto;
-      border: 5px solid #ffe066;
-      border-radius: 10px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-      animation: fadeInUp 2s ease-out;
+      animation: fadeInUp 1.7s ease-out;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
 
     .footer {
       text-align: center;
       margin-top: 40px;
-      font-size: 1.2em;
+      font-size: 1.3em;
       font-weight: bold;
       color: #ffe066;
-      animation: slideIn 2s ease-out;
+      animation: slideIn 1.8s ease-out;
     }
 
     /* Animations */
-    @keyframes fadeIn {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
     }
 
     @keyframes fadeInUp {
-      0% { opacity: 0; transform: translateY(20px); }
-      100% { opacity: 1; transform: translateY(0); }
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     @keyframes slideIn {
-      0% { opacity: 0; transform: translateX(-50px); }
-      100% { opacity: 1; transform: translateX(0); }
+      from { opacity: 0; transform: translateX(-50px); }
+      to { opacity: 1; transform: translateX(0); }
     }
 
     @keyframes fadeInItem {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
 
-    /* Mobile responsiveness */
     @media (max-width: 768px) {
       h1 {
-        font-size: 2em;
+        font-size: 2.2em;
       }
-      ul {
-        max-width: 90%;
-      }
-      .contact-info {
+      ul, .radio-form, .contact-info {
         max-width: 90%;
       }
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to the Cloud World</h1>
+  <h1>🌥️ Welcome to the Cloud World</h1>
+
+  <div class="logo-container">
+    <img src="https://www.pngplay.com/wp-content/uploads/9/Gurukul-Logo-PNG-HD-Quality.png" alt="Gurukul Technologies Logo">
+  </div>
+
   <h1>Gurukul Technologies</h1>
 
-  <h2>Courses Offered:</h2>
+  <h2>Courses Offered</h2>
   <ul>
-    <li>AWS Azure GCP</li>
-    <li>AWS DevOps Azure Devops</li>
-    <li> Automation  Ansible for congiartion management </li>
-    <li> Automation  Terraform for Infrastructure </li>
+    <li>☁️ AWS, Azure, GCP</li>
+    <li>🚀 AWS DevOps, Azure DevOps</li>
+    <li>⚙️ Ansible (Configuration Management)</li>
+    <li>📦 Terraform (Infrastructure Automation)</li>
   </ul>
 
+  <div class="radio-form">
+    <h2>Select a Course</h2>
+    <form id="courseForm">
+      <label><input type="radio" name="course" value="AWS"> ☁️ AWS, Azure, GCP</label>
+      <label><input type="radio" name="course" value="DevOps"> 🚀 AWS DevOps, Azure DevOps</label>
+      <label><input type="radio" name="course" value="Ansible"> ⚙️ Ansible (Configuration Management)</label>
+      <label><input type="radio" name="course" value="Terraform"> 📦 Terraform (Infrastructure)</label>
+      <button type="submit">✅ Submit</button>
+    </form>
+  </div>
+
   <div class="contact-info">
-    <h2>Contact: +91 5000000000</h2>
-    <h2>Contact: +91 1000000000</h2>
-    <h3>Location: Bangalore</h3>
+    <h2>📞 +91 5000000000</h2>
+    <h2>📞 +91 1000000000</h2>
+    <h3>📍 Location: Bangalore</h3>
   </div>
 
   <div class="footer">
-    Learn Daily enjoy ...
+    ✨ Learn daily, enjoy always...
   </div>
+
+  <script>
+    document.getElementById('courseForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const selected = document.querySelector('input[name="course"]:checked');
+      if (selected) {
+        alert("You selected: " + selected.value);
+      } else {
+        alert("Please select a course before submitting.");
+      }
+    });
+  </script>
 </body>
 </html>
-
