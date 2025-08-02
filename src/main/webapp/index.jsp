@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>🌥️ Gurukul Technologies</title>
-  <link rel="icon" href="https://emojiapi.dev/api/v1/cloud/64.png" type="image/png">
   <style>
     body {
       background: linear-gradient(-45deg, #1a2a6c, #b21f1f, #fdbb2d, #3a1c71);
@@ -22,18 +21,6 @@
       margin: 20px 0 10px;
       color: #ffe066;
       animation: slideIn 1.2s ease-out;
-    }
-
-    .logo-container {
-      text-align: center;
-      animation: fadeInUp 1.4s ease-out;
-    }
-
-    .logo-container img {
-      max-width: 220px;
-      border-radius: 12px;
-      margin: 10px auto;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
 
     h2, h3 {
@@ -156,10 +143,6 @@
 </head>
 <body>
   <h1>🌥️ Welcome to the Cloud World</h1>
-
-  <div class="logo-container">
-    <img src="https://www.pngplay.com/wp-content/uploads/9/Gurukul-Logo-PNG-HD-Quality.png" alt="Gurukul Technologies Logo">
-  </div>
 
   <h1>Gurukul Technologies</h1>
 
